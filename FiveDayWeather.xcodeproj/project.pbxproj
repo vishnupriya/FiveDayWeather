@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		671BBE6C1FC59CD9006E7926 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671BBE6B1FC59CD9006E7926 /* AppDelegate.swift */; };
+		671BBE6E1FC59CD9006E7926 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671BBE6D1FC59CD9006E7926 /* ViewController.swift */; };
+		671BBE711FC59CD9006E7926 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 671BBE6F1FC59CD9006E7926 /* Main.storyboard */; };
+		671BBE731FC59CD9006E7926 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 671BBE721FC59CD9006E7926 /* Assets.xcassets */; };
+		671BBE761FC59CD9006E7926 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 671BBE741FC59CD9006E7926 /* LaunchScreen.storyboard */; };
+		671BBE811FC59CD9006E7926 /* FiveDayWeatherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671BBE801FC59CD9006E7926 /* FiveDayWeatherTests.swift */; };
+		671BBE8C1FC59CDA006E7926 /* FiveDayWeatherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671BBE8B1FC59CDA006E7926 /* FiveDayWeatherUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		671BBE7D1FC59CD9006E7926 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 671BBE601FC59CD9006E7926 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 671BBE671FC59CD9006E7926;
+			remoteInfo = FiveDayWeather;
+		};
+		671BBE881FC59CD9006E7926 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 671BBE601FC59CD9006E7926 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 671BBE671FC59CD9006E7926;
+			remoteInfo = FiveDayWeather;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		671BBE681FC59CD9006E7926 /* FiveDayWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FiveDayWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		671BBE6B1FC59CD9006E7926 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		671BBE6D1FC59CD9006E7926 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		671BBE701FC59CD9006E7926 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		671BBE721FC59CD9006E7926 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		671BBE751FC59CD9006E7926 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		671BBE771FC59CD9006E7926 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		671BBE7C1FC59CD9006E7926 /* FiveDayWeatherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FiveDayWeatherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		671BBE801FC59CD9006E7926 /* FiveDayWeatherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiveDayWeatherTests.swift; sourceTree = "<group>"; };
+		671BBE821FC59CD9006E7926 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		671BBE871FC59CD9006E7926 /* FiveDayWeatherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FiveDayWeatherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		671BBE8B1FC59CDA006E7926 /* FiveDayWeatherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiveDayWeatherUITests.swift; sourceTree = "<group>"; };
+		671BBE8D1FC59CDA006E7926 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		671BBE651FC59CD9006E7926 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		671BBE791FC59CD9006E7926 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		671BBE841FC59CD9006E7926 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		671BBE5F1FC59CD9006E7926 = {
+			isa = PBXGroup;
+			children = (
+				671BBE6A1FC59CD9006E7926 /* FiveDayWeather */,
+				671BBE7F1FC59CD9006E7926 /* FiveDayWeatherTests */,
+				671BBE8A1FC59CDA006E7926 /* FiveDayWeatherUITests */,
+				671BBE691FC59CD9006E7926 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		671BBE691FC59CD9006E7926 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				671BBE681FC59CD9006E7926 /* FiveDayWeather.app */,
+				671BBE7C1FC59CD9006E7926 /* FiveDayWeatherTests.xctest */,
+				671BBE871FC59CD9006E7926 /* FiveDayWeatherUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		671BBE6A1FC59CD9006E7926 /* FiveDayWeather */ = {
+			isa = PBXGroup;
+			children = (
+				671BBE6B1FC59CD9006E7926 /* AppDelegate.swift */,
+				671BBE6D1FC59CD9006E7926 /* ViewController.swift */,
+				671BBE6F1FC59CD9006E7926 /* Main.storyboard */,
+				671BBE721FC59CD9006E7926 /* Assets.xcassets */,
+				671BBE741FC59CD9006E7926 /* LaunchScreen.storyboard */,
+				671BBE771FC59CD9006E7926 /* Info.plist */,
+			);
+			path = FiveDayWeather;
+			sourceTree = "<group>";
+		};
+		671BBE7F1FC59CD9006E7926 /* FiveDayWeatherTests */ = {
+			isa = PBXGroup;
+			children = (
+				671BBE801FC59CD9006E7926 /* FiveDayWeatherTests.swift */,
+				671BBE821FC59CD9006E7926 /* Info.plist */,
+			);
+			path = FiveDayWeatherTests;
+			sourceTree = "<group>";
+		};
+		671BBE8A1FC59CDA006E7926 /* FiveDayWeatherUITests */ = {
+			isa = PBXGroup;
+			children = (
+				671BBE8B1FC59CDA006E7926 /* FiveDayWeatherUITests.swift */,
+				671BBE8D1FC59CDA006E7926 /* Info.plist */,
+			);
+			path = FiveDayWeatherUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		671BBE671FC59CD9006E7926 /* FiveDayWeather */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 671BBE901FC59CDA006E7926 /* Build configuration list for PBXNativeTarget "FiveDayWeather" */;
+			buildPhases = (
+				671BBE641FC59CD9006E7926 /* Sources */,
+				671BBE651FC59CD9006E7926 /* Frameworks */,
+				671BBE661FC59CD9006E7926 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FiveDayWeather;
+			productName = FiveDayWeather;
+			productReference = 671BBE681FC59CD9006E7926 /* FiveDayWeather.app */;
+			productType = "com.apple.product-type.application";
+		};
+		671BBE7B1FC59CD9006E7926 /* FiveDayWeatherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 671BBE931FC59CDA006E7926 /* Build configuration list for PBXNativeTarget "FiveDayWeatherTests" */;
+			buildPhases = (
+				671BBE781FC59CD9006E7926 /* Sources */,
+				671BBE791FC59CD9006E7926 /* Frameworks */,
+				671BBE7A1FC59CD9006E7926 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				671BBE7E1FC59CD9006E7926 /* PBXTargetDependency */,
+			);
+			name = FiveDayWeatherTests;
+			productName = FiveDayWeatherTests;
+			productReference = 671BBE7C1FC59CD9006E7926 /* FiveDayWeatherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		671BBE861FC59CD9006E7926 /* FiveDayWeatherUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 671BBE961FC59CDA006E7926 /* Build configuration list for PBXNativeTarget "FiveDayWeatherUITests" */;
+			buildPhases = (
+				671BBE831FC59CD9006E7926 /* Sources */,
+				671BBE841FC59CD9006E7926 /* Frameworks */,
+				671BBE851FC59CD9006E7926 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				671BBE891FC59CD9006E7926 /* PBXTargetDependency */,
+			);
+			name = FiveDayWeatherUITests;
+			productName = FiveDayWeatherUITests;
+			productReference = 671BBE871FC59CD9006E7926 /* FiveDayWeatherUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		671BBE601FC59CD9006E7926 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Vishnu Priya";
+				TargetAttributes = {
+					671BBE671FC59CD9006E7926 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					671BBE7B1FC59CD9006E7926 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 671BBE671FC59CD9006E7926;
+					};
+					671BBE861FC59CD9006E7926 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 671BBE671FC59CD9006E7926;
+					};
+				};
+			};
+			buildConfigurationList = 671BBE631FC59CD9006E7926 /* Build configuration list for PBXProject "FiveDayWeather" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 671BBE5F1FC59CD9006E7926;
+			productRefGroup = 671BBE691FC59CD9006E7926 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				671BBE671FC59CD9006E7926 /* FiveDayWeather */,
+				671BBE7B1FC59CD9006E7926 /* FiveDayWeatherTests */,
+				671BBE861FC59CD9006E7926 /* FiveDayWeatherUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		671BBE661FC59CD9006E7926 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				671BBE761FC59CD9006E7926 /* LaunchScreen.storyboard in Resources */,
+				671BBE731FC59CD9006E7926 /* Assets.xcassets in Resources */,
+				671BBE711FC59CD9006E7926 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		671BBE7A1FC59CD9006E7926 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		671BBE851FC59CD9006E7926 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		671BBE641FC59CD9006E7926 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				671BBE6E1FC59CD9006E7926 /* ViewController.swift in Sources */,
+				671BBE6C1FC59CD9006E7926 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		671BBE781FC59CD9006E7926 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				671BBE811FC59CD9006E7926 /* FiveDayWeatherTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		671BBE831FC59CD9006E7926 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				671BBE8C1FC59CDA006E7926 /* FiveDayWeatherUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		671BBE7E1FC59CD9006E7926 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 671BBE671FC59CD9006E7926 /* FiveDayWeather */;
+			targetProxy = 671BBE7D1FC59CD9006E7926 /* PBXContainerItemProxy */;
+		};
+		671BBE891FC59CD9006E7926 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 671BBE671FC59CD9006E7926 /* FiveDayWeather */;
+			targetProxy = 671BBE881FC59CD9006E7926 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		671BBE6F1FC59CD9006E7926 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				671BBE701FC59CD9006E7926 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		671BBE741FC59CD9006E7926 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				671BBE751FC59CD9006E7926 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		671BBE8E1FC59CDA006E7926 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		671BBE8F1FC59CDA006E7926 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		671BBE911FC59CDA006E7926 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FiveDayWeather/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FiveDayWeather;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		671BBE921FC59CDA006E7926 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FiveDayWeather/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FiveDayWeather;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		671BBE941FC59CDA006E7926 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FiveDayWeatherTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FiveDayWeatherTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FiveDayWeather.app/FiveDayWeather";
+			};
+			name = Debug;
+		};
+		671BBE951FC59CDA006E7926 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FiveDayWeatherTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FiveDayWeatherTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FiveDayWeather.app/FiveDayWeather";
+			};
+			name = Release;
+		};
+		671BBE971FC59CDA006E7926 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FiveDayWeatherUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FiveDayWeatherUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FiveDayWeather;
+			};
+			name = Debug;
+		};
+		671BBE981FC59CDA006E7926 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FiveDayWeatherUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FiveDayWeatherUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FiveDayWeather;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		671BBE631FC59CD9006E7926 /* Build configuration list for PBXProject "FiveDayWeather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				671BBE8E1FC59CDA006E7926 /* Debug */,
+				671BBE8F1FC59CDA006E7926 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		671BBE901FC59CDA006E7926 /* Build configuration list for PBXNativeTarget "FiveDayWeather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				671BBE911FC59CDA006E7926 /* Debug */,
+				671BBE921FC59CDA006E7926 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		671BBE931FC59CDA006E7926 /* Build configuration list for PBXNativeTarget "FiveDayWeatherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				671BBE941FC59CDA006E7926 /* Debug */,
+				671BBE951FC59CDA006E7926 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		671BBE961FC59CDA006E7926 /* Build configuration list for PBXNativeTarget "FiveDayWeatherUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				671BBE971FC59CDA006E7926 /* Debug */,
+				671BBE981FC59CDA006E7926 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 671BBE601FC59CD9006E7926 /* Project object */;
+}
